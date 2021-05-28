@@ -12,3 +12,11 @@ var dado2 = Math.floor(Math.random() * 6 + 1);
 console.log(dado2);
 
 // confronto i due risultati e dò la vittoria al punteggio più alto
+
+if (dado1 > dado2) {
+    console.log('vince dado1');
+} else if (dado1 < dado2) {
+    console.log('vince dado2');
+} else {
+    console.log('pareggio');
+}
