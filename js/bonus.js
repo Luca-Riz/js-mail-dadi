@@ -2,5 +2,8 @@
 
 var i;
 
-for (var i = 12; i <= 30; i += 3)
+for (var i = 10; i <= 30; i ++)
+
+if (i % 3 == 0) {
     console.log(i);
+}
